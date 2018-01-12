@@ -2,7 +2,7 @@
 This is a project containing Linux commonly used commands and descriptions.
 
 %=========================================================
-# when starting a termnial session, the current working directory is set to home directory
+## when starting a termnial session, the current working directory is set to home directory
 
 date                #current date and time
 cal                 #calendar of the current month
@@ -29,7 +29,7 @@ mv                  #move file from first one to second one, e.g. mv dir1_test d
 
 
 
-##==============================================
+%%==============================================
 ls 选项：
 ls -a               #list all files including those hidden files starting with "."
 ls -d               #list the content of directory, use with the -l option to see details about directory
@@ -38,11 +38,11 @@ ls -h               #display file size in human readable format rather than in b
 ls -l               #display results in long format
 ls -r               #display the results in reverse format, normally results in ascending alphabetical order
 ls -S               #sort results by file size
-ls -t               #sort by modification time
-##==============================================
+ls -t               #sort by modification time
+%%==============================================
 
 
-##==============================================
+%%==============================================
 cp 选项：
 cp file1 file2      #copy file1 to fil2 (but it doesn't work for directory)
 cp -i file1 file2   #if file2 exists, system will ask whether file2 will be rewrite
@@ -59,7 +59,7 @@ cp -r dir1 dir2     #
 
 
 
-##==============================================
+%%==============================================
 
 
 less filename       #examine text files
@@ -75,8 +75,8 @@ ln                  #create hard and symbolic links
 
 
 
-#==============================================
-#Shell
+％==============================================
+##　Shell
 
 *系统信息：
 arch                         #显示机器的处理器构架（1）
