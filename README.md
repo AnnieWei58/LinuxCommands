@@ -1,7 +1,7 @@
 # LinuxCommands
 This is a project containing Linux commonly used commands and descriptions.
 
-#=========================================================
+%=========================================================
 # when starting a termnial session, the current working directory is set to home directory
 
 date                #current date and time
