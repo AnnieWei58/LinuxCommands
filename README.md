@@ -2,6 +2,7 @@
 This is a project containing Linux commonly used commands and descriptions.
 
 %=========================================================
+
 ## when starting a termnial session, the current working directory is set to home directory
 
 date                #current date and time
@@ -30,6 +31,7 @@ mv                  #move file from first one to second one, e.g. mv dir1_test d
 
 
 %%==============================================
+
 ls 选项：
 ls -a               #list all files including those hidden files starting with "."
 ls -d               #list the content of directory, use with the -l option to see details about directory
@@ -43,6 +45,7 @@ ls -t               #sort by modification time
 
 
 %%==============================================
+
 cp 选项：
 cp file1 file2      #copy file1 to fil2 (but it doesn't work for directory)
 cp -i file1 file2   #if file2 exists, system will ask whether file2 will be rewrite
@@ -76,6 +79,7 @@ ln                  #create hard and symbolic links
 
 
 ％==============================================
+
 ##　Shell
 
 *系统信息：
